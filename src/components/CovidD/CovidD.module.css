@@ -1,0 +1,10 @@
+:root {
+  --primary-container-color: #edf2f4;
+  --primary-font-red: #d90429;
+  --primary-font-dark-red: #c50a29;
+  --primary-font-cadet: #2b2d42;
+  --secondary-font-red: #ef233c;
+  --secondary-font-manatee: #8d99ae;
+  --first-font-style: "Poppins", sans-serif;
+  --second-font-style: "Oswald", sans-serif;
+}

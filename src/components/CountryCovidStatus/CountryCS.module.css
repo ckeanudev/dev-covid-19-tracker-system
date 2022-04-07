@@ -1,0 +1,117 @@
+:root {
+  --primary-container-color: #edf2f4;
+  --primary-background-color: #c5ced1;
+  --primary-font-red: #d90429;
+  --primary-font-cadet: #2b2d42;
+  --secondary-font-red: #ef233c;
+  --secondary-font-manatee: #8d99ae;
+  --first-font-style: "Poppins", sans-serif;
+  --second-font-style: "Oswald", sans-serif;
+}
+
+.country_container {
+  max-width: 1440px;
+  margin: 0px auto 1rem;
+  padding: 2rem;
+  background-color: var(--primary-container-color);
+}
+
+.country_h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-font-cadet);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inner_country_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left_countryCS {
+  flex: 50;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country_population {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.country_population p {
+  color: var(--primary-font-cadet);
+}
+
+.country_description {
+  color: var(--primary-font-cadet);
+}
+
+.country_flag {
+  width: 40%;
+  margin: 1rem 1rem 1rem;
+}
+
+.country_flag img {
+  width: 100%;
+}
+
+.right_countryCS {
+  flex: 50;
+  padding: 1rem;
+}
+
+.country_right_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.country_items {
+  background-color: var(--primary-container-color);
+  text-align: center;
+  padding: 1.5rem 1.2rem;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px 5px 1px rgba(0, 0, 0, 0.1);
+  border-top: 0.5rem solid var(--primary-font-red);
+  transition: 0.2s ease;
+}
+
+.country_items:hover {
+  transform: translateY(-3px);
+}
+
+.country_items h3 {
+  font-weight: 400;
+  color: var(--primary-font-cadet);
+}
+
+.country_items h2 {
+  color: var(--primary-font-dark-red);
+}
+
+/* -----------------------------------------------RESPONSIVE-------------------------------------------- */
+
+@media (max-width: 600px) {
+  .inner_country_container {
+    flex-direction: column;
+  }
+  .country_flag {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .country_items {
+    height: 80px;
+  }
+}
