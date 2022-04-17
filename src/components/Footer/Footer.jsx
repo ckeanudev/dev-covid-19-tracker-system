@@ -9,7 +9,7 @@ function Footer() {
         <div className={styles.first_footer}>
           <p className={styles.footer_ckeanu}>
             by{" "}
-            <a href="https://ckn.netlify.app/" target="_blank">
+            <a href="https://ckn-portfolio.netlify.app/" target="_blank">
               Ckeanu.
             </a>
           </p>
